@@ -1,0 +1,145 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+}
+
+nav{
+    display: flex;
+    width: 98%;
+    height: 100%;
+    align-items: center;
+}
+
+#header_logo{
+    height: 100%;
+    margin-left: 5px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+li{
+    margin-left: 30px;
+}
+
+header a{
+    color: #000;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+footer{
+    display: flex;
+    height: 40vh;
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 2vw 6vw;
+}
+
+footer > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer > div > div {
+    height: 15vh;
+    width: 50%;
+}
+
+#footer_links{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#footer_links > div{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+
+#footer_links > div > a{
+    color: #e2e2e2;
+    text-decoration: none;
+}
+
+#footer_links > div > a:hover{
+    color: #fff;
+}
+
+#footer_links > div > a:nth-of-type(1){
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#footer_links a{
+    margin-bottom: 10px;
+}
+
+#socialmedia{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#socialmedia svg{
+    height: 30px;
+    fill: #e2e2e2;
+    margin: 10px;
+}
+
+#footer_copyright{
+    margin: 10px;
+}
+
+#partners{
+    display: flex;
+    width: 100%;
+    align-items: end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#partners_header{
+    margin-bottom: 15px;
+    color: #e2e2e2;
+}
+
+#partners img{
+    margin: 10px 0px 0px 10px;
+    height: 30px;
+}
+
+/* Content */
+
+#content{
+    display: flex;
+    height: 92vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content a{
+    color: #000;
+}
+
